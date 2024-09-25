@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
 const images = Array.from(
@@ -14,11 +15,13 @@ const NewsTicker = () => {
       </p>
       <Marquee direction="left" loop={0} autoFill={true} speed={200}>
         {images.map((src, index) => (
-          <img
+          <Image
             key={index}
             src={src}
             alt={`Artboard ${index + 1}`}
             className="h-20 mx-6"
+            width={300}
+            height={100}
           />
         ))}
       </Marquee>
