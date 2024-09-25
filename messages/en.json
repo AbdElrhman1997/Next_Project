@@ -1,0 +1,12 @@
+{
+  "HomePaeg": {
+    "Header": {
+      "home": "Home",
+      "aboutUs": "About Us",
+      "ourServices": "Our Services",
+      "consultations": "Consultations",
+      "level7": "Level 7 Videos",
+      "login": "Login"
+    }
+  }
+}
